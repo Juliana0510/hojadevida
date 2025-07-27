@@ -121,3 +121,49 @@ h2::after {
     color: white;
     width: 30%;
 }
+
+/* Navegación del índice - BOTONES HORIZONTALES, ubicación centrada, efecto hover */
+nav {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+nav h2 {
+    color: white;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 12px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid rgba(255,255,255,0.3);
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: rgba(255,255,255,0.3);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
