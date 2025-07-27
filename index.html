@@ -167,43 +167,44 @@
                 </tbody>
             </table>
         </section> 
-         
-        <section id="Contactame">
-            <h2 style="color: rgb(78, 112, 225);"> Contactame</h2>   
+
+        <section id="contactame">
+            <h2>Contáctame</h2>   
             <form action="/action_page.php">
-            <fieldset>
-                <label for="fname">Nombre:</label><br>
-                <input type="text" id="fname" name="fname" required><br>
-                <br>
-                <label for="fname">Apellido:</label><br>
-                <input type="text" id="fname" name="fname"required><br>
-                <br>
-                <label for="fname">Empresa:</label><br>
-                <input type="text" id="fname" name="fname"required><br>
-                <br>
-                <label for="fname">Telefono:</label><br>
-                <input type="text" id="fname" name="fname"required><br>
-                <br>
-                <label for="fname">Correo:</label><br>
-                <input type="text" id="fname" name="fname"required><br>
-                <br>
-                <label for="fname">Horario para contacto:</label><br>
-                <input type="datetime-local" id="fname" name="fname"required><br>
-                <br>
-                <label for="ciudad">Ciudad de vacante:</label><br>
+                <fieldset>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                    
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" id="empresa" name="empresa" required>
+                    
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" required>
+                    
+                    <label for="correo">Correo:</label>
+                    <input type="text" id="correo" name="correo" required>
+                    
+                    <label for="horario">Horario para contacto:</label>
+                    <input type="datetime-local" id="horario" name="horario" required>
+                    
+                    <label for="ciudad">Ciudad de vacante:</label>
                     <select id="ciudad" name="ciudad">
-                    <option value="Cali">Cali</option>
-                    <option value="Bogota">Bogota</option>
-                    <option value="Medellin">Medellin</option>
-                    <option value="Manizales">Manizales</option>
-                    <option value="Barranqilla">Barranquilla</option>
-                    <option value="Otra">Otra</option>
-                </select><br>
-                <br>
-                <input type="reset" id="fname" name="fname"><br>
-                <br>
-                <input type="submit" id="fname" name="fname"><br>
-            </fieldset>
+                        <option value="Cali">Cali</option>
+                        <option value="Bogota">Bogotá</option>
+                        <option value="Medellin">Medellín</option>
+                        <option value="Manizales">Manizales</option>
+                        <option value="Barranquilla">Barranquilla</option>
+                        <option value="Otra">Otra</option>
+                    </select>
+                    
+                    <input type="reset" value="Limpiar">
+                    <input type="submit" value="Enviar">
+                </fieldset>
             </form>   
-    </body>
+        </section>
+    </div>
+</body>
 </html>
