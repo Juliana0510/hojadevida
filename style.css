@@ -198,3 +198,44 @@ ol li strong {
     color: #4e70e1;
     font-size: 1.1em;
 }
+
+/* Experiencia laboral */
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.experience-item {
+    flex: 1;
+    min-width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.experience-item img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.experience-item a {
+    color: #4e70e1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.experience-item a:hover {
+    text-decoration: underline;
+}
